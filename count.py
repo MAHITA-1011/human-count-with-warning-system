@@ -168,7 +168,7 @@ def run():
                 
                 if not to.counted:
                    
-                    if direction < 0 and centroid[1] < H//2:
+                    if direction < 0 and centroid[1] < H:
                         outwards += 1
                         empty.append(outwards)
                         
